@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TA_1212505513.barang">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIEEAIAgIAgAAAAAAQABAAAGAAAAAAACAAAEJAAA=</HashCode>
+      <FileName>Class\barang.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TA_1212505513.clscustomer">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAEAIAgIAAAEAAABAAIAAASAAAAAAAAAEAEEgAA=</HashCode>
+      <FileName>Class\clscustomer.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TA_1212505513.clsdetil_retur">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEEAAAgIAgAACAQAQAAQAACgAAACAACQAAAAAAA=</HashCode>
+      <FileName>Class\clsdetil_retur.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TA_1212505513.clsdetil_sj">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAEAAAAIAgAAACAAAAAAQACAAAAAABCAAAAAAAA=</HashCode>
+      <FileName>Class\clsdetil_sj.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TA_1212505513.clsdetil_sp">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAASQEAAAAIAgAAAAAAAAAAAACAAAAAABCAAGAAAAA=</HashCode>
+      <FileName>Class\clsdetil_sp.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TA_1212505513.clskurir">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAIAgIAAABAAACCAgCAAKAAAAAAEAAAIEAAAA=</HashCode>
+      <FileName>Class\clskurir.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TA_1212505513.clskwitansi">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEABAAIAAAAAAAAAgAAABCAAAAAAAAAAIEQQAA=</HashCode>
+      <FileName>Class\clskwitansi.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TA_1212505513.clsnota">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAkABgAIAAAAAAgAAAAAABCAAAAAABAAAAEBACQ=</HashCode>
+      <FileName>Class\clsnota.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TA_1212505513.clsretur">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQAEAAAgIAAAAAAAAAAAAAACgAAAAABAAAAEAQAA=</HashCode>
+      <FileName>Class\clsretur.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TA_1212505513.clssj">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAEAAAAIAAAACAACAgAAAAKAAAAAABAAAIEAAAA=</HashCode>
+      <FileName>Class\clssj.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TA_1212505513.clssp">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABQAEAAAAIAAAACAAQAEAAAAaAAAAAABAIACEAAAA=</HashCode>
+      <FileName>Class\clssp.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
