@@ -31,22 +31,32 @@ Public Class clskwitansi
             fno_nota = value
         End Set
     End Property
-
-
     Public Function autonumber() As String
-
+        Dim nilai As String
+        sql = "select Max(no_kwit) as max from kwitansi"
+        cmmd = New OdbcCommand(sql, MyCn)
+        Bacadata = cmmd.ExecuteReader
+        Bacadata.Read()
+        If Not Bacadata.HasRows = True Then
+            nilai = "KWT0001"
+        Else
+            nilai = Val(Mid(Bacadata.Item("max"), 4, 4))
+            If Len(nilai) = 1 Then
+                nilai = "KWT000" & nilai
+            ElseIf Len(nilai) = 2 Then
+                nilai = "KWT00" & nilai
+            ElseIf Len(nilai) = 3 Then
+                nilai = "KWT0" & nilai
+            ElseIf Len(nilai) = 4 Then
+                nilai = "KWT" & nilai
+            End If
+        End If
+        Bacadata.Close()
+        Return nilai
     End Function
-
-
     Public Function cari() As Boolean
 
     End Function
-
-
-
-
-
-
     Public Function simpan() As Integer
 
     End Function
