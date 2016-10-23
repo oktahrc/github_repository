@@ -55,18 +55,9 @@ Public Class clskwitansi
         Return nilai
     End Function
     Public Function cari() As Boolean
-
     End Function
     Public Function simpan() As Integer
-
     End Function
-
-
     Public Function tampildata(ByVal xData As String) As List(Of clskwitansi)
-
     End Function
-
-
-
-
 End Class
